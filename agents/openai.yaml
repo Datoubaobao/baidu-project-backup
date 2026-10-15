@@ -1,0 +1,4 @@
+interface:
+  display_name: "百度网盘项目备份"
+  short_description: "备份当前 Codex 项目到百度网盘，校验后按指令清理，并保留恢复标记"
+  default_prompt: "使用 $baidu-project-backup 将当前项目备份到我的百度网盘，验证备份可以恢复，并保留恢复标记。"
