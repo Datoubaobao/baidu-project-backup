@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="306" viewBox="0 0 1280 306" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">从完整备份到按指令清理</title>
+  <desc id="desc">完整归档上传后，从网盘真实回下载并校验全部内容。只备份时保留原文件；明确要求备份并清理时，移入废纸篓并在原路径留下恢复标记。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#92A9CF"/></marker>
+  </defs>
+  <path d="M266 153H310M602 153H635V78H678M635 153V228H678" stroke="#92A9CF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M286 153H310M654 78H678M654 228H678" stroke="#92A9CF" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <rect x="20" y="99" width="246" height="108" rx="18" fill="#F0F5FF" stroke="#C8D8F5" stroke-width="2"/>
+  <rect x="310" y="99" width="292" height="108" rx="18" fill="#EAF8F2" stroke="#B2DDCF" stroke-width="2"/>
+  <rect x="680" y="24" width="580" height="108" rx="18" fill="#F0F5FF" stroke="#C8D8F5" stroke-width="2"/>
+  <rect x="680" y="174" width="580" height="108" rx="18" fill="#F0F5FF" stroke="#C8D8F5" stroke-width="2"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
+    <g fill="#172B4D" font-size="25" font-weight="650">
+      <text x="43" y="143">完整归档并上传</text>
+      <text x="336" y="143">真实回下载并校验</text>
+      <text x="708" y="69">指令：备份</text>
+      <text x="708" y="219">指令：备份并清理</text>
+    </g>
+    <g fill="#526984" font-size="20">
+      <text x="43" y="179">完整项目 · 独立分卷</text>
+      <text x="336" y="179">全部内容核对通过</text>
+      <text x="708" y="105">保留原文件与恢复入口</text>
+      <text x="708" y="255">移入废纸篓 · 原路径留下恢复标记</text>
+    </g>
+  </g>
+</svg>

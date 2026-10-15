@@ -92,18 +92,7 @@ git clone --branch v0.1.0 --depth 1 \
 
 ## 备份如何走到可以恢复
 
-```mermaid
-flowchart LR
-    A["完整归档并上传"] --> B["真实回下载<br/>全部内容校验"]
-    B --> C{"用户的指令"}
-    C --> D["备份<br/>保留原文件和恢复入口"]
-    C --> E["备份并清理<br/>移入废纸篓并留标记"]
-    style A fill:#EFF4FF,stroke:#81A4F2,color:#172B4D
-    style B fill:#E8F8F1,stroke:#15947C,color:#172B4D
-    style C fill:#FFFFFF,stroke:#81A4F2,color:#172B4D
-    style D fill:#EFF4FF,stroke:#81A4F2,color:#172B4D
-    style E fill:#E8F8F1,stroke:#15947C,color:#172B4D
-```
+![备份流程：完整上传、真实回下载和全量校验后，按指令保留文件或移入废纸篓](assets/workflow.svg)
 
 默认每卷上限 **2 GiB**，记录 SHA-256、权限、纳秒修改时间、扩展属性及符号链接。清理后，原项目位置留下 `AGENTS.md`、`.codex-baidu-backup.json` 和 `百度网盘恢复说明.md`，供下次定位和恢复。
 
