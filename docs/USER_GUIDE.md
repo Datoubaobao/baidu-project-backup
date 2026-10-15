@@ -6,6 +6,14 @@
 
 按 [README 的安装步骤](../README.md#安装) 安装技能。官方推荐的个人技能位置为 `~/.agents/skills/`，项目共享技能可放在 `.agents/skills/`；详见 [OpenAI 官方文档](https://learn.chatgpt.com/docs/build-skills)。如果你的环境使用自定义或旧版技能目录，以实际配置为准，避免同时安装同名版本。
 
+学生第一次使用可先看 [三步上手指引](STUDENT_QUICKSTART.md)。直接在 Codex 中发送下面这段话即可请求安装已发布版本，无需手动定位仓库子目录：
+
+```text
+使用 $skill-installer 安装 https://github.com/Datoubaobao/baidu-project-backup 的 v0.1.0 版本。技能位于仓库根目录（path: .），安装名称为 baidu-project-backup。只安装，不执行备份或清理。
+```
+
+安装结束后再发一条消息确认技能可识别；未发现时重启 Codex。内置安装器使用当前环境配置的技能目录，可能与手动安装示例不同，不需要在两个位置重复安装。
+
 本地脚本需要 Python 3.10+，无需额外安装 Python 包。完整桌面流程面向 macOS 和官方百度网盘客户端。需要登录时，请自行在官方界面完成，不向助手提供密码、Cookie、BDUSS、STOKEN 或访问令牌。
 
 自动操作客户端需要当前环境提供桌面控制工具。Codex CLI 等缺少此能力的环境可以让用户手动传输，助手仍负责打包、校验和恢复。技能不会自动安装客户端、网盘插件或网络代理。

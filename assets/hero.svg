@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">百度网盘项目备份与恢复</title>
+  <desc id="desc">开源 Codex 技能：完整备份、回下载校验、按需恢复。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#F5F8FF"/><stop offset="1" stop-color="#EAF1FF"/></linearGradient>
+    <linearGradient id="folder" x1="939" y1="205" x2="1127" y2="306" gradientUnits="userSpaceOnUse"><stop stop-color="#5B8DFF"/><stop offset="1" stop-color="#3565DE"/></linearGradient>
+    <clipPath id="clip"><rect width="1280" height="420" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect x="1" y="1" width="1278" height="418" rx="27" fill="url(#bg)" stroke="#DFE7F5" stroke-width="2"/>
+    <circle cx="1170" cy="85" r="232" fill="#DFE9FF" fill-opacity=".7"/>
+    <circle cx="1226" cy="397" r="136" fill="#D8EAEF" fill-opacity=".5"/>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
+      <rect x="64" y="57" width="7" height="18" rx="3.5" fill="#4576EF"/>
+      <text x="85" y="72" fill="#4165AB" font-size="15" font-weight="650" letter-spacing="2.2">CODEX SKILL / OPEN SOURCE</text>
+      <text x="61" y="155" fill="#172B4D" font-size="55" font-weight="750" letter-spacing="-1">百度网盘项目备份与恢复</text>
+      <text x="64" y="204" fill="#526984" font-size="24">把项目归档到云端，把恢复入口留在本地。</text>
+      <g font-size="18" font-weight="600">
+        <rect x="64" y="251" width="151" height="47" rx="13" fill="white" stroke="#DCE5F4"/>
+        <circle cx="88" cy="274.5" r="4" fill="#4475E9"/><text x="102" y="281" fill="#355789">完整备份</text>
+        <rect x="228" y="251" width="174" height="47" rx="13" fill="white" stroke="#DCE5F4"/>
+        <circle cx="252" cy="274.5" r="4" fill="#14957E"/><text x="266" y="281" fill="#355789">回下载校验</text>
+        <rect x="415" y="251" width="151" height="47" rx="13" fill="white" stroke="#DCE5F4"/>
+        <circle cx="439" cy="274.5" r="4" fill="#4475E9"/><text x="453" y="281" fill="#355789">按需恢复</text>
+      </g>
+      <text x="64" y="361" fill="#7689A4" font-size="15" letter-spacing=".5">私有网盘存储  ·  macOS 工作流  ·  MIT License</text>
+    </g>
+    <rect x="908" y="90" width="274" height="252" rx="29" fill="#D1DEF8" fill-opacity=".55"/>
+    <rect x="897" y="79" width="274" height="252" rx="29" fill="white" stroke="#D6E1F4" stroke-width="2"/>
+    <path d="M973 157C973 140 987 126 1004 126C1011 107 1031 98 1050 105C1065 109 1076 121 1078 136C1094 135 1107 148 1107 163C1107 178 1095 190 1080 190H1002C985 190 973 177 973 161V157Z" fill="#EDF3FF" stroke="#81A4F2" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M1039 164V131M1027 143L1039 131L1051 143" stroke="#507EE4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M945 220C945 213 951 207 958 207H997L1011 222H1113C1120 222 1126 228 1126 235V291C1126 298 1120 304 1113 304H958C951 304 945 298 945 291V220Z" fill="#AEC6FC"/>
+    <path d="M942 242C941 234 947 228 955 228H1118C1126 228 1132 234 1131 242L1125 296C1124 303 1118 308 1111 308H962C955 308 949 303 948 296L942 242Z" fill="url(#folder)"/>
+    <rect x="973" y="248" width="75" height="7" rx="3.5" fill="white" fill-opacity=".9"/>
+    <rect x="973" y="265" width="49" height="6" rx="3" fill="white" fill-opacity=".5"/>
+    <circle cx="1129" cy="299" r="36" fill="#E8F8F1" stroke="white" stroke-width="7"/>
+    <path d="M1113 299L1124 310L1145 287" stroke="#15947C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M864 165H876M870 159V171M1186 230H1198M1192 224V236" stroke="#92ADDD" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="899" cy="358" r="5" fill="#99B3E6"/>
+  </g>
+</svg>
