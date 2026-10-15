@@ -7,7 +7,10 @@
 打开本地 Codex，新建或进入一个对话，复制发送：
 
 ```text
-使用 $skill-installer 安装 https://github.com/Datoubaobao/baidu-project-backup 的 v0.1.0 版本。技能位于仓库根目录（path: .），安装名称为 baidu-project-backup。只安装，不执行备份或清理。
+使用 $skill-installer 安装以下 GitHub 技能：
+https://github.com/Datoubaobao/baidu-project-backup
+版本：v0.1.0；技能位于仓库根目录（path: .）。
+安装名称：baidu-project-backup。只安装，不执行备份或清理。
 ```
 
 其中 `$skill-installer` 是 Codex 的内置技能安装器，GitHub 链接是公开源码仓库；`path: .` 表示技能就在仓库根目录。固定版本便于全班使用同一份发布代码。
@@ -57,7 +60,10 @@
 同学们，请在本地 Codex 中发送下面这段话，安装本次练习使用的项目备份技能：
 
 ```text
-使用 $skill-installer 安装 https://github.com/Datoubaobao/baidu-project-backup 的 v0.1.0 版本。技能位于仓库根目录（path: .），安装名称为 baidu-project-backup。只安装，不执行备份或清理。
+使用 $skill-installer 安装以下 GitHub 技能：
+https://github.com/Datoubaobao/baidu-project-backup
+版本：v0.1.0；技能位于仓库根目录（path: .）。
+安装名称：baidu-project-backup。只安装，不执行备份或清理。
 ```
 
 等安装完成，再发一条消息：“请确认你能找到 baidu-project-backup 技能，现在不要执行备份或清理。”未识别时先重启 Codex。

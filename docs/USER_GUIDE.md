@@ -9,7 +9,10 @@
 学生第一次使用可先看 [三步上手指引](STUDENT_QUICKSTART.md)。直接在 Codex 中发送下面这段话即可请求安装已发布版本，无需手动定位仓库子目录：
 
 ```text
-使用 $skill-installer 安装 https://github.com/Datoubaobao/baidu-project-backup 的 v0.1.0 版本。技能位于仓库根目录（path: .），安装名称为 baidu-project-backup。只安装，不执行备份或清理。
+使用 $skill-installer 安装以下 GitHub 技能：
+https://github.com/Datoubaobao/baidu-project-backup
+版本：v0.1.0；技能位于仓库根目录（path: .）。
+安装名称：baidu-project-backup。只安装，不执行备份或清理。
 ```
 
 安装结束后再发一条消息确认技能可识别；未发现时重启 Codex。内置安装器使用当前环境配置的技能目录，可能与手动安装示例不同，不需要在两个位置重复安装。

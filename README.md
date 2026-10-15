@@ -43,7 +43,10 @@
 适用于本地 Codex。使用内置 `$skill-installer` 安装；课堂建议固定使用已发布的 `v0.1.0`：
 
 ```text
-使用 $skill-installer 安装 https://github.com/Datoubaobao/baidu-project-backup 的 v0.1.0 版本。技能位于仓库根目录（path: .），安装名称为 baidu-project-backup。只安装，不执行备份或清理。
+使用 $skill-installer 安装以下 GitHub 技能：
+https://github.com/Datoubaobao/baidu-project-backup
+版本：v0.1.0；技能位于仓库根目录（path: .）。
+安装名称：baidu-project-backup。只安装，不执行备份或清理。
 ```
 
 ### ② 等待安装完成，再发一条消息检查
